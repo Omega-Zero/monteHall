@@ -1,2 +1,2 @@
 # monteHall
-Debunk or prove the Monte Hall theory of having a higher probability of choosing the door with a prize by switching doors after choosing one door and having one revealed to you
+Debunk or prove the Monte Hall theory of having a higher probability of winning by switching doors after choosing one door and having one revealed to you. Pass how many simulations you want ran to "printmontesimstay()" for keeping your original decision. Do the same for "printmontesimother()" to see odds of winning by changing your decision from your original decision after one of the bunk options are revealed. Remove "print" from beginning of method to improve performance and pass higher parameters.
