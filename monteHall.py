@@ -266,25 +266,31 @@ def printmontesimother(rounds):
             else:
                 door1 = None
 
-
+        
         #Change to other door
         if choice == 1 and door2 == None:
             choice = 3
+            print("door 2 is revealed to be a zonk")
             print("you change door to door:", choice)
         elif choice == 1 and door3 == None:
             choice = 2
+            print("door 3 is revealed to be a zonk")
             print("you change door to door:", choice)
         elif choice == 2 and door1 == None:
             choice = 3
+            print("door 1 is revealed to be a zonk")
             print("you change door to door:", choice)
         elif choice == 2 and door3 == None:
             choice = 1
+            print("door 3 is revealed to be a zonk")
             print("you change door to door:", choice)
         elif choice == 3 and door1 == None:
             choice = 2
+            print("door 1 is revealed to be a zonk")
             print("you change door to door:", choice)
         elif choice == 3 and door2 == None:
             choice = 1
+            print("door 2 is revealed to be a zonk")
             print("you change door to door: ", choice)
 
         
